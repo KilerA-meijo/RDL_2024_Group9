@@ -59,6 +59,18 @@
     display: block;
     max-width: 400px;
     margin:auto;
+    animation: slideinBottom 3s;
+}
+
+@keyframes slideinBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    90% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .comment {
