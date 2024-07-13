@@ -64,7 +64,8 @@ img {
 
 .header-logo {
     display: block;
-    width: 170px;
+    width: 120px;
+    padding-top: 5px;
 }
 
 .site-menu ul {
@@ -77,7 +78,8 @@ img {
 }
 
 .site-menu ul li a {
-    font-family: 'Cherry Bomb One', cursive;
+    font-family: 'Times New Roman','游明朝';
+    font-weight: bold;
 }
 
 .floating {
@@ -136,7 +138,8 @@ img {
     }
 
     .header-logo {
-        width: 100px;
+        width: 60px;
+        padding-top: 5px;
     }
 
     .main {
