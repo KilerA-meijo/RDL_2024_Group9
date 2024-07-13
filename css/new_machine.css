@@ -87,7 +87,80 @@ p {
     padding-top: 15px;
 }
 
+.title {
+    background-color: #190808;
+    text-align: center;
+    font-family: "Noto Serif JP", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color:#ffffff;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ul.list {
+    overflow-x: auto;
+	white-space: nowrap;
+    font-family: "Noto Serif JP", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+li.item {
+    text-align: center;
+	display: inline-block;
+	width: 60%;
+	height: auto;
+	margin: 16px;
+    padding-top: 20px;
+	font-size: 48px;
+	color: #fff;
+	background-color: #190808;
+}
+
+.point_img {
+    display: block;
+    width: 90%;
+    margin:auto;
+}
+
+.point {
+    display: flex;
+    text-align: left;
+    color: #190808;
+    font-size: 18px;
+    width: 90%;
+    margin:auto;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    background-color: #ffffff;
+}
+
+.under {
+    white-space: wrap;
+    text-decoration:underline solid #190808
+}
+
 @media (max-width: 800px) {
+
+    h1 {
+        font-size: 5vw;
+    }
+
+    h2 {
+        font-size: 4vw;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    p {
+        font-size: 3vw;
+    }
+
     .member-list {
         padding-left: 20px;
         padding-right: 20px;
@@ -102,6 +175,6 @@ p {
         text-align: center;
         margin: auto;
         padding-bottom: 10px;
-        font-size: 5px;
+        font-size: 3vw;
     }
 }
