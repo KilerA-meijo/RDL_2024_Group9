@@ -73,6 +73,15 @@
     }
 }
 
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .comment {
     text-align: right;
     margin-right: 50px;
@@ -90,6 +99,7 @@
 .content {
     margin-top: 50px;
     margin-bottom: 20px;
+    animation: appear 2s;
 }
 
 p {
