@@ -12,3 +12,22 @@
     height: 600px;
     margin-top: 25px;
 }
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sentence{
+    background-color: white;
+    font-size: large;
+    margin-top: 10px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+.content {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
