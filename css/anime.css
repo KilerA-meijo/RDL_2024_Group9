@@ -1,37 +1,33 @@
-.title {
-    height: 310px;
-    background-image: url(../images/concept/bg-main.jpg);
+.first-view {
+    width: 300px;
+    height: 230px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    color: #ffffff;
-    text-shadow: 1px 1px 10px #4b2c14;
 }
 
-.title h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
-    font-weight: bold;
+.view0{
+    background-image: url(../images/illust/1.png);
 }
 
-.title p {
-    font-size: 14px;
-    margin-top: 15px;
+.view1{
+    background-image: url(../images/illust/2.png);
+}
+
+.view2{
+    background-image: url(../images/illust/3.png);
 }
 
 .feature {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
-    width: 930px;
     max-width: 90%;
     margin-top: 75px;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     align-items: flex-start;
 }
 
@@ -40,13 +36,26 @@
     margin-right: 40px;
 }
 
-.reverse {
-    flex-direction: row-reverse;
+.nore{
+    position: relative;
+    left: 0px;
 }
 
-.reverse .feature-text {
-    margin-left: 40px;
-    margin-right: 0;
+.reverse {
+    flex-direction: row-reverse;
+    position: relative;
+    right: 0px;
+}
+
+.left{
+    margin-left: 20px;
+    margin-right: 10%;
+    margin-bottom: 20px;
+}
+
+.right{
+    margin-left: 10%;
+    margin-right: auto;
 }
 
 .feature-text h2 {
@@ -64,50 +73,16 @@
     margin-top: 20px;
 }
 
-.feature-text p {
-    font-size: 15px;
+p {
+    width: 700px;
+    font-size: 40px;
     line-height: 28px;
     margin-top: 25px;
+    margin-left: 10px;
+    text-align: left;
 }
 
-.movie {
-    width: 930px;
-    max-width: 90%;
-    background-color: #f8f8f8;
-    padding: 50px 60px;
-    margin-top: 55px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.movie h2 {
-    font-size: 22px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.movie h2::after {
-    content: "";
-    display: block;
-    width: 36px;
-    height: 3px;
-    background-color: #000000;
-    margin-top: 20px;
-}
-
-.movie iframe {
-    display: block;
-    width: 100%;
-    height: 450px;
-    margin-top: 30px;
-}
-
-.movie p {
-    font-size: 15px;
-    line-height: 28px;
-    margin-top: 20px;
-}
-
-.footer {
-    margin-top: 100px;
+.reverse p{
+    margin-right: 10px;
+    text-align: right;
 }
