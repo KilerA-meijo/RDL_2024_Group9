@@ -86,7 +86,8 @@ img {
     position: absolute;
     top: 85px;
     left: 15px;
-    background-color: #d0d0d0;
+    width: 10%;
+    background:rgba(255,0,0,0);    
 }
 
 .footer {
@@ -158,5 +159,13 @@ img {
         border: none;
         border-radius: 0;
         outline: none;
+    }
+
+    .floating {
+        position: absolute;
+        top: 65px;
+        left: 10px;
+        width: 15%;
+        background:rgba(255,0,0,0);    
     }
 }
